@@ -127,7 +127,7 @@ const welcomeEmail = (name) => {
     <p>We are absolutely thrilled to have you join our community. Whether you are searching for your next dream job or looking to hire top-tier talent, CareerConnect has the tools and network to help you succeed.</p>
     <p>To get started, we recommend completing your profile so you can present your best self to prospective employers or candidates.</p>
     <div class="button-container">
-      <a href="${process.env.CLIENT_URL || 'http://localhost:5173'}/login" class="btn">Explore Dashboard</a>
+      <a href="${process.env.CLIENT_URL || 'https://career-connect-y0mi.onrender.com'}/login" class="btn">Explore Dashboard</a>
     </div>
     <p>Happy connecting!<br>The CareerConnect Team</p>
   `);
@@ -145,7 +145,7 @@ const applicationSubmittedEmail = (candidateName, jobTitle, companyName) => {
       <div class="detail-row"><span class="detail-label">Status:</span> Pending Review</div>
     </div>
     <div class="button-container">
-      <a href="${process.env.CLIENT_URL || 'http://localhost:5173'}/dashboard/candidate" class="btn">Track Applications</a>
+      <a href="${process.env.CLIENT_URL || 'https://career-connect-y0mi.onrender.com'}/dashboard/candidate" class="btn">Track Applications</a>
     </div>
     <p>Wishing you the best of luck,<br>The CareerConnect Team</p>
   `);
@@ -175,7 +175,7 @@ const applicationRejectedEmail = (candidateName, jobTitle, companyName) => {
     <p>After careful review of all applications, the hiring team has decided to move forward with other candidates whose qualifications closely align with their current needs.</p>
     <p>Please do not be discouraged! New job openings are posted on CareerConnect daily. We encourage you to keep exploring new opportunities.</p>
     <div class="button-container">
-      <a href="${process.env.CLIENT_URL || 'http://localhost:5173'}/jobs" class="btn">Search More Jobs</a>
+      <a href="${process.env.CLIENT_URL || 'https://career-connect-y0mi.onrender.com'}/jobs" class="btn">Search More Jobs</a>
     </div>
     <p>We wish you the very best in your professional endeavors.</p>
     <p>Warmly,<br>The CareerConnect Team</p>
@@ -189,7 +189,7 @@ const jobPostedEmail = (employerName, jobTitle) => {
     <p>This is to confirm that your job listing for <strong>${jobTitle}</strong> has been successfully published and is now active on CareerConnect.</p>
     <p>Candidates can now discover and apply for this position. You will receive notifications when new candidates apply, and you can review all applications from your employer dashboard.</p>
     <div class="button-container">
-      <a href="${process.env.CLIENT_URL || 'http://localhost:5173'}/dashboard/employer" class="btn">View Employer Dashboard</a>
+      <a href="${process.env.CLIENT_URL || 'https://career-connect-y0mi.onrender.com'}/dashboard/employer" class="btn">View Employer Dashboard</a>
     </div>
     <p>Thank you for choosing CareerConnect to build your team!</p>
     <p>Best regards,<br>The CareerConnect Team</p>

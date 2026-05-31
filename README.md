@@ -73,7 +73,7 @@ EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_gmail_app_password
 EMAIL_FROM=CareerConnect <noreply@careerconnect.com>
 
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=https://career-connect-y0mi.onrender.com
 ```
 
 > [!NOTE]
@@ -99,7 +99,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Open your browser and navigate to `http://localhost:5173`. Vite will proxy API requests automatically to `http://localhost:5000`.
+Open your browser and navigate to `https://career-connect-y0mi.onrender.com`. Vite will proxy API requests automatically to `https://career-connect-y0mi.onrender.com`.
 
 ---
 
